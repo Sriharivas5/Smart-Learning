@@ -1,0 +1,13 @@
+.transform{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(rgb(97, 4, 87),rgb(0, 0, 0));
+}
+.scale{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

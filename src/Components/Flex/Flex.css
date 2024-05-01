@@ -1,0 +1,84 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-image: linear-gradient(#C02425,#f08c35,#b43aac);
+    background-image: radial-gradient(rgb(0, 79, 22),black);
+    background-image: linear-gradient(to right,#D4F1F8,#71A6D1);
+    background-image: radial-gradient(rgb(0, 0, 79),black);
+
+}
+
+.container {
+    width: 800px;
+    height: 450px;
+    background-image: url('https://cdn.vectorstock.com/i/500p/42/78/sunset-landscape-with-sea-and-mountains-vector-38924278.avif');
+
+
+    background-image: url('https://cdn.vectorstock.com/i/500p/00/68/natural-cartoon-landscape-with-mountains-and-lake-vector-49010068.avif');
+
+
+    background-image: url('https://cdn.vectorstock.com/i/500p/03/61/mountains-winter-vector-39870361.avif');
+
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/29/03/52/ai-generated-8418631_1280.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.object {
+    width: 200px;
+    height: 200px;
+    background-image: url('../../assets/pikachu.png');
+    background-image: url('../../assets/grassPokemon.png');
+    background-image: url('../../assets/icePokemon.png');
+    background-image: url('../../assets/flyingPokemon2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.inputContainer input {
+    width: 300px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.input {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+.inputDiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.inputContainer button {
+    width: 120px;
+    padding: 10px;
+    font-size: 18px;
+
+}
