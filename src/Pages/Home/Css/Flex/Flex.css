@@ -33,10 +33,10 @@
 .object {
     width: 200px;
     height: 200px;
-    background-image: url('../../assets/pikachu.png');
-    background-image: url('../../assets/grassPokemon.png');
-    background-image: url('../../assets/icePokemon.png');
-    background-image: url('../../assets/flyingPokemon2.png');
+    background-image: url('./assets/pikachu.png');
+    background-image: url('./assets/grassPokemon.png');
+    background-image: url('./assets/icePokemon.png');
+    background-image: url('./assets/flyingPokemon2.png');
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

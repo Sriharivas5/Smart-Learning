@@ -1,15 +1,12 @@
 import React from 'react'
 import './App.css'
-import Flex from './Components/Flex/Flex'
-import Transform from './Components/Transform/Transform'
-import Selectors from './Components/Selectors/Selectors'
+import Csshome from './Pages/Home/Css/Csshome'
+
 
 const App = () => {
   return (
     <div className='app'>
-      {/* <Flex/> */}
-      <Transform/>
-      {/* <Selectors/>   */}
+     <Csshome/>
     </div>
   )
 }
