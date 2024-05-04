@@ -1,10 +1,9 @@
 import React from 'react'
-import Flex from './Flex/Flex'
-
+import { Link } from 'react-router-dom'
 const Csshome = () => {
   return (
     <div>
-        <Flex/>
+        <Link to='/Smart-Learning/Css/Flex'><h1>flex</h1></Link>
     </div>
   )
 }

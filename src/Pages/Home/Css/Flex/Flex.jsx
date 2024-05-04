@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import './Flex.css'
+import bricks from './assets/bricks.png'
+import mario from './assets/mario.png'
 
 const Flex = () => {
     const [justifyContent, setJustifyContent] = useState('')
@@ -12,12 +14,20 @@ const Flex = () => {
     const handleClick = () => {
         setJustifyContent(justifyContentInput)
         setAlignItems(alignItemsInput)
+        console.log(alignItems)
     }
     return (
         <div className='main'>
-            <div className='container' style={{ display: 'flex', gap: '10px', justifyContent: `${justifyContent}`, alignItems: `${alignItems}` }}>
+            <div className='container' >
 
-                <div className="object" >
+
+                <div className="object" style={{ display: 'flex', gap: '10px', justifyContent: `${justifyContent}`, alignItems: `${alignItems}` }}>
+                    <img src={mario} alt="" />
+                </div>
+                <div className="land">
+                    <img src={bricks} />
+                    <img src={bricks}  />
+                    <img src={bricks}  />
 
                 </div>
                 {/* <div className="object" >
