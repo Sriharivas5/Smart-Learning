@@ -23,7 +23,6 @@ const App = () => {
           <Route path='/Smart-Learning/Css/Flex/Flex3' element={<Flex3/>} />
           <Route path='/Smart-Learning/Css/Flex/Flex4' element={<Flex4/>} />
           <Route path='/Smart-Learning/Css/Flex/Flex5' element={<Flex5/>} />
-          
         </Routes>
       </BrowserRouter>
     </div>

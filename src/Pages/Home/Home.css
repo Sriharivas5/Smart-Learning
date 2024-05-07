@@ -1,0 +1,127 @@
+.home {
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.hero {
+    max-width: 100%;
+    height: 100%;
+    /* background-image: url('./assets/homeBackground.jpg'); */
+    background-image: url('./assets/background2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 78, 112);
+    text-shadow: 2px 2px 2px #C8CCE5;
+    gap: 20px;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    padding: 10px 25px;
+    font-size: 65px;
+    text-shadow:  3px 3px 3px #BDC2E0;
+    border: 2px solid rgba(44, 44, 44, 0.492);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(0, 74, 138);
+
+}
+
+.hero h2 {
+    font-size: 35px;
+    /* text-shadow: 1px 1px 1px #000000, 2px 2px 2px #2ab4ff; */
+}
+
+.hero h3 {
+    font-size: 25px;
+    /* text-shadow: 0px 0px 1px #000000, 1px 1px 1px #2ab4ff; */
+}
+
+.css {
+    height: 50vh;
+    /* background-color: #daf7fe; */
+    background-color: #C8C9E3;
+    background-image: radial-gradient(#DEE4F0 ,#C8C9E3,#a0a6cb);
+    color: #00153c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.css h2 {
+    font-size: 30px;
+}
+
+.css h3 {
+    font-size: 22px;
+}
+
+.css button {
+    border-radius: 5px;
+    border: 1px solid rgba(32, 32, 32, 0.162);
+    border-radius: 0;
+    background: linear-gradient(145deg, #00174d, #28747d);
+    box-shadow: 7px 7px 12px #bebebe,
+        -7px -7px 12px #ffffff;
+    padding: 15px 20px;
+    color: aliceblue;
+    font-size: 20px;
+
+}
+
+.js {
+    height: 50vh;
+    /* background-color: #00153c; */
+    background-color: #adb0ff;
+    background-image: radial-gradient(#00153e ,#090b3b,#000425);
+    color: #e3f9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.js button {
+    border-radius: 5px;
+    border: 1px solid rgba(32, 32, 32, 0.162);
+    border-radius: 50px;
+    background: linear-gradient(145deg, #f0f0f0, #f5feff);
+    box-shadow: 2px 2px 5px #9df7ff,
+        -2px -2px 5px #a2b3c0;
+    padding: 15px 20px;
+    font-size: 19px;
+    color: #00153c;
+    font-weight: 900;
+
+}
+
+.reactJs {
+    height: 50vh;
+    /* background-color: #daf7fe; */
+    /* background-color: #C8C9E3; */
+    background-image: radial-gradient(#DEE4F0 ,#C8C9E3,#a0a6cb);
+    color: #00153c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.reactJs button{
+    border-radius: 5px;
+    border: 1px solid rgba(32, 32, 32, 0.162);
+    border-radius: 50px;
+    background: linear-gradient(145deg, #00174d, #28747d);
+    box-shadow: 7px 7px 12px #bebebe,
+        -7px -7px 12px #ffffff;
+    padding: 15px 20px;
+    color: aliceblue;
+    font-size: 20px;
+}
