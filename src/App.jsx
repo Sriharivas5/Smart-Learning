@@ -9,7 +9,11 @@ import Flex2 from './Pages/Home/Css/Flex/Flex2/Flex2'
 import Flex3 from './Pages/Home/Css/Flex/Flex3/Flex3'
 import Flex4 from './Pages/Home/Css/Flex/Flex4/Flex4'
 import Flex5 from './Pages/Home/Css/Flex/Flex5/Flex5'
+// <<<<<<< HEAD
 import FlexIntro from './Pages/Home/Css/Flex/FlexIntro/FlexIntro'
+// =======
+import Level1 from './Pages/Home/Javascript/Basics/Level1/Level1'
+// >>>>>>> 028ae775f3a69843688c05b6f023e1e17cc76c4c
 
 const App = () => {
   return (
@@ -19,6 +23,7 @@ const App = () => {
           <Route path='/Smart-Learning' element={<Home/>} />
           <Route path='/Smart-Learning/Css' element={<Csshome/>} />
           <Route path='/Smart-Learning/Js' element={<Javascript/>} />
+          <Route path='/Smart-Learning/Js/Basics/Level1' element={<Level1 />}/>
           <Route path='/Smart-Learning/Css/Flex/Flex1' element={<Flex/>} />
           <Route path='/Smart-Learning/Css/Flex/Flex2' element={<Flex2/>} />
           <Route path='/Smart-Learning/Css/Flex/Flex3' element={<Flex3/>} />
