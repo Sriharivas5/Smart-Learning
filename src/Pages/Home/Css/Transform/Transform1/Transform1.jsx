@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import './Transform.css'
+import './Transform1.css'
 
-const Transform = () => {
+const Transform1 = () => {
     const [scale, setScale] = useState(1)
     const [scaleInput, setScaleInput] = useState(1)
 
@@ -53,7 +53,7 @@ const Transform = () => {
     )
 }
 
-export default Transform
+export default Transform1
 
 
 
