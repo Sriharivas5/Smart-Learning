@@ -125,3 +125,8 @@
     color: aliceblue;
     font-size: 20px;
 }
+
+.websiteIntro{
+    height: 50vh;
+    background-image: radial-gradient(#00153e ,#090b3b,#000425);   
+}
