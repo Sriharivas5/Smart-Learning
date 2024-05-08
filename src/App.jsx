@@ -10,6 +10,7 @@ import Flex3 from './Pages/Home/Css/Flex/Flex3/Flex3'
 import Flex4 from './Pages/Home/Css/Flex/Flex4/Flex4'
 import Flex5 from './Pages/Home/Css/Flex/Flex5/Flex5'
 import Level1 from './Pages/Home/Javascript/Basics/Level1/Level1'
+import Transform1 from './Pages/Home/Css/Transform/Transform1/Transform1'
 
 const App = () => {
   return (
@@ -25,6 +26,8 @@ const App = () => {
           <Route path='/Smart-Learning/Css/Flex/Flex3' element={<Flex3/>} />
           <Route path='/Smart-Learning/Css/Flex/Flex4' element={<Flex4/>} />
           <Route path='/Smart-Learning/Css/Flex/Flex5' element={<Flex5/>} />
+          <Route path='/Smart-Learning/Css/Transform/Transform1' element={<Transform1/>} />
+          
         </Routes>
       </BrowserRouter>
     </div>
