@@ -58,7 +58,7 @@ const Flex4 = () => {
                 <div className='inputContainer4'>
 
                     <div className='inputHeadings4'>
-                        <h1>Mario's got tired take them to Mushrooms</h1>
+                        <h1>Mario's got tired take them to <span>Mushrooms</span></h1>
                         <h3>Use the properties like </h3>
                         <h3>Justify-Content: space-between, space-evenly, space-around</h3>
                         <h3>Align-items: center,  flex-start,  flex-end</h3>

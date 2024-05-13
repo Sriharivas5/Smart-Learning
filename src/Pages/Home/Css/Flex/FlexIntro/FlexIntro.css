@@ -1,0 +1,12 @@
+.flexIntro{
+    display: flex;
+    flex-direction: column;
+}
+.flexIntro h1{
+    color: black;
+}
+
+.flexMain{
+    display: flex;
+    flex-direction: column;
+}

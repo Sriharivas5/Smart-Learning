@@ -11,7 +11,32 @@ const Home = () => {
       </div>
 
       <div className="websiteIntro">
-        <h1>What you can do in this website ?</h1>
+        <div>
+          <h1>Welcome to Smart Learning</h1>
+          <h4>Unlock the joy of learning web development through an exciting, game-based approach with CodeFun! Whether you're a beginner eager to dive into the world of HTML, CSS, and JavaScript, or someone looking to refresh your skills in a fun way, you've come to the right place.</h4>
+        </div>
+
+        <div>
+          <h2>What is Smart Learning ?</h2>
+          <h4>
+            CodeFun is an interactive platform designed to make your learning experience engaging and enjoyable. We believe that mastering web development doesn't have to be tedious. Instead, it can be an adventure filled with challenges and triumphs!
+          </h4>
+        </div>
+        
+        <div>
+          <h2>What Can You Do Here ?</h2>
+
+          <h4>	&#8594;
+            Learn by Playing: Jump into a series of games that teach you coding from the ground up. Each game focuses on a core concept of web development, turning complex lessons into simple, entertaining experiences.
+
+          </h4>
+          <br />
+          <h4>	&#8594;
+             Build as You Go: As you progress through our games, you’ll not only learn the theory but also apply it by building projects. From simple web pages to more complex layouts, watch your code come to life as you play!
+          </h4>
+
+
+        </div>
       </div>
 
       <div className="css">
