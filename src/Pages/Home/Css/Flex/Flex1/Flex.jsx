@@ -31,7 +31,7 @@ const Flex = () => {
             <div className="gameContainer">
                 <div className='container' >
                     <div className="object" style={{ display: 'flex', gap: '10px', justifyContent: `${justifyContent}`, alignItems: `${alignItems}` }}>
-                        <img src={mario} alt="" />
+                        <img src={mario} />
                     </div>
                     <div className="land">
                         <img src={bricks} />

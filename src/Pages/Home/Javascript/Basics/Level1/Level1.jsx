@@ -1,14 +1,18 @@
 import React, { useState } from 'react'
 import '../Level1/Level1.css'
+import { useNavigate } from 'react-router-dom'
 const Level1 = () => {
   let [code,setCode] = useState('')
   let [output,setOutput] = useState('Write your code...')
   let [left_class,setLeft_class] = useState('left')
+  let [disabled,setDisabled] = useState(true)
+  let navigate = useNavigate()
   let handleRun = ()=>{
     if(code== 'console.log("Hello World")' || code=="console.log('Hello World')"){
     setLeft_class('new_left')
     console.log("success")
     setOutput('Hello World')
+    setDisabled(false)
   
   }
   else{
@@ -30,10 +34,10 @@ const Level1 = () => {
                 <p>Write the code  to display "Hello World" </p>
             </div>
             <div className="right-bottom">
-              <textarea type="text" value={code} onChange={(e)=>{setCode(e.target.value)}} />
+              <textarea type="text" value={code} onChange={(e)=>{setCode(e.target.value)}}  className='level1-text' />
               <div className="btn-container">
                 <button onClick={handleRun}>Run Code</button>
-                <button>Next Level</button>
+                <button onClick={()=>{navigate('/Smart-Learning/Js/Basics/Level2')}} disabled={disabled}>Next Level</button>
               </div>
             </div>
         </div>

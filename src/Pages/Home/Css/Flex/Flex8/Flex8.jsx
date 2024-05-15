@@ -1,19 +1,20 @@
 import React, { useEffect, useState } from 'react'
-import './Flex5.css'
+import './Flex8.css'
 import bricks from '../assets/bricks.png'
 import mario from '../assets/mario.png'
-import powerUp from '../assets/coin.png'
+import powerUp from '../assets/pinkPowerUp.png'
+import powerUpRed from '../assets/redPowerUp.png'
 
 import { Link } from 'react-router-dom'
 
-const Flex5 = () => {
+const Flex8 = () => {
     const [justifyContent, setJustifyContent] = useState('')
     const [alignItems, setAlignItems] = useState('')
-    const[flexDirection, setFlexDirection] = useState('')
+    const [flexDirection, setFlexDirection] = useState('')
 
     const [justifyContentInput, setJustifyContentInput] = useState('')
     const [alignItemsInput, setAlignItemsInput] = useState('')
-    const[flexDirectionInput, setFlexDirectionInput] = useState('')
+    const [flexDirectionInput, setFlexDirectionInput] = useState('')
 
 
     const [button, setButton] = useState(false)
@@ -24,41 +25,46 @@ const Flex5 = () => {
         setFlexDirection(flexDirectionInput)
     }
     useEffect(() => {
-        if (justifyContent.toLowerCase() == 'space-around' && alignItems.toLowerCase() == 'flex-end' && flexDirection.toLowerCase()=='column' ) {
+        if (justifyContent.toLowerCase() == 'space-between' && alignItems.toLowerCase() == 'flex-end' && flexDirection.toLowerCase() == 'column-reverse') {
             setButton(true)
         }
-    }, [justifyContent, alignItems])
+    }, [justifyContent, alignItems,flexDirection])
     return (
-        <div className='main5'>
-            <div className="level5">
-                <h1>Level 5</h1>
+        <div className='main8'>
+            <div className="level8">
+                <h1>Level 8</h1>
 
             </div>
-            <div className="gameContainer5">
-                <div className='container5' >
-                    <div className="object5" style={{ display: 'flex', gap: '10px', justifyContent: `${justifyContent}`, alignItems: `${alignItems}` ,flexDirection: `${flexDirection}`}}>
-                        <img src={mario} />
-                        <img src={mario} />
+            <div className="gameContainer8">
+                <div className='container8' >
+                    <div className="object8" style={{ display: 'flex', gap: '10px', justifyContent: `${justifyContent}`, alignItems: `${alignItems}`, flexDirection: `${flexDirection}` }}>
+                        <img src={mario} id='redMario' />
+                        <img src={mario} id='blueMario' />
+                        <img src={mario} id='yellowMario' />
 
                     </div>
-                    <div className="land5">
-                        <div className="left5">
+                    {/* <div className="land8" >
+                        <div className="left8" id='blueLand'>
                             <img src={bricks} />
                             <img src={bricks} />
                             <img src={bricks} />
                         </div>
-                        <div className="right5">
+                        <div className="right8" id='redLand'>
                             <img src={bricks} />
                             <img src={bricks} />
                             <img src={bricks} />
                         </div>
-
+                    </div> */}
+                    <div className="powerUp8">
+                        <img src={powerUp} id='powerUpGreen'/>
+                        <img src={powerUp} id='powerUpPurple'/>
+                        <img src={powerUpRed} id='powerUpRed'/>
                     </div>
                 </div>
-                <div className='inputContainer5'>
+                <div className='inputContainer8'>
 
-                    <div className='inputHeadings5'>
-                        <h1>Help the mario to reach the blocks</h1>
+                    <div className='inputHeadings8'>
+                        <h1>Help the mario's to reach the respected coloured blocks</h1>
                         <h3>Use the properties like </h3>
                         <h3>Justify-Content: space-between, space-evenly, space-around</h3>
                         <h3>Align-items: center,  flex-start,  flex-end</h3>
@@ -66,13 +72,13 @@ const Flex5 = () => {
                     </div>
 
 
-                    <div className='input5'>
-                        <div className='inputDiv5'>
+                    <div className='input8'>
+                        <div className='inputDiv8'>
                             <h2>Display</h2>
                             <input type="text" value='Flex' readOnly />
                         </div>
 
-                        <div className='inputDiv5'>
+                        <div className='inputDiv8'>
                             <h2>Justify-Content</h2>
                             <input type="text" value={justifyContentInput} onChange={(e) => setJustifyContentInput(e.target.value)} placeholder='justify content'
 
@@ -83,7 +89,7 @@ const Flex5 = () => {
 
                             />
                         </div>
-                        <div className='inputDiv5'>
+                        <div className='inputDiv8'>
                             <h2> Align-Items  </h2>
                             <input type="text" value={alignItemsInput} onChange={(e) => setAlignItemsInput(e.target.value)} placeholder='align items'
 
@@ -94,7 +100,7 @@ const Flex5 = () => {
 
                             />
                         </div>
-                        <div className='inputDiv5'>
+                        <div className='inputDiv8'>
                             <h2> Flx-direction  </h2>
                             <input type="text" value={flexDirectionInput} onChange={(e) => setFlexDirectionInput(e.target.value)} placeholder='flex-direction'
 
@@ -110,7 +116,7 @@ const Flex5 = () => {
 
                     <button onClick={handleClick}>Submit</button>
 
-                    {button ? <div id='level'><h1>Hurray! Level 5 completed</h1><Link to='/Smart-Learning/Css/Flex/Flex6'><button id='nextLevel'>Next Level &#129034;</button></Link></div> : ''}
+                    {button ? <div id='level'><h1>Hurray! your flexbox tasks completed</h1></div> : ''}
 
                 </div>
             </div>
@@ -118,4 +124,4 @@ const Flex5 = () => {
     )
 }
 
-export default Flex5
+export default Flex8

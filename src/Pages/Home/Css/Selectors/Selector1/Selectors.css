@@ -1,34 +1,56 @@
+.heading{
+    padding: 5px 0;
+    height: 5vh;
+    background-image: linear-gradient(to right, #b1981a, #b35212, rgb(6, 80, 6));
+}
 .selectors {
-    background-image: linear-gradient(to right, #b1981a,#b35212,rgb(6, 80, 6));
+    background-image: linear-gradient(to right, #b1981a, #b35212, rgb(6, 80, 6));
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 .objects {
     min-width: 50%;
-    height: 50%;
-    background-image: url('./assets/background.jpg');
+    height: 50vh;
+    background-image: url('../assets/background.jpg');
     background-size: cover;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 100px;
     margin: 10px;
     transform: rotateY(180deg);
     border-radius: 5px;
 
 }
-img{
+
+.eating {
+    min-width: 50%;
+    min-height: 50vh;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 10px;
+    transform: rotateY(180deg);
+    border-radius: 5px;
+}
+
+img {
     max-width: 200px;
     max-height: 200px;
 }
 
-#tiger {
-    width: 200px;
+.tiger {
+    width: 220px;
     height: 200px;
     transform: rotateY(180deg);
     margin-bottom: -25px;
+}
+
+#reversedTiger {
+    transform: rotateY(0deg);
 }
 
 #girl {
@@ -53,9 +75,11 @@ img{
     width: auto;
     height: 200px;
 }
-h1{
+
+h1 {
     text-align: center;
 }
+
 h2 {
     color: aliceblue;
 }
@@ -65,11 +89,13 @@ h2 {
     flex-direction: column;
     gap: 10px;
 }
-.selectorsInput{
+
+.selectorsInput {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .selectorsInput input {
     padding: 15px;
     width: 400px;
@@ -85,4 +111,12 @@ h2 {
     margin: 10px;
     height: 50px;
 
+}
+.nextLevel{
+    display: flex;
+    gap: 20px;
+}
+.nextLevel button{
+    font-size: 18px;
+    padding: 10px 20px;
 }

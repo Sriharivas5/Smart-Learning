@@ -1,0 +1,22 @@
+.level3main{
+    width: 100vw;
+    height: 100vh;
+    background-image: radial-gradient(white, blue);
+    display: flex;
+
+
+}
+
+.level3_left{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px;   
+}
+
+.level3_right{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 50px; 
+}

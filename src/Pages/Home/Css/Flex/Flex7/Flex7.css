@@ -1,17 +1,17 @@
-.main5 {
+.main7 {
     max-width: 100vw;
     height: 100vh;
     text-align: center;
-    padding: 20px 0 0 0;    
+    padding: 20px 0 0 0;
     background-image: linear-gradient(to right, #D4F1F8, #3773a5);
 }
 
-.level5 {
+.level7 {
     height: 5%;
 
 }
 
-.gameContainer5 {
+.gameContainer7 {
     width: 100%;
     height: 95%;
     padding: 10px;
@@ -20,7 +20,7 @@
     gap: 30px;
 }
 
-.container5 {
+.container7 {
     width: 50%;
     height: 70%;
     background-image: url('../assets/ground.png'), url('../assets/sky.jpg');
@@ -35,39 +35,54 @@
     position: relative;
 }
 
-.land5 {
+.land7 {
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column; 
-    justify-content: space-around;
-    align-items: flex-end;
+    flex-direction: column-reverse;  
+    justify-content: space-evenly;
+    align-items:center;
     position: absolute;
+    gap: 40px;
     top: 70px;
     /* width: 20%;
     height: 10%;*/
 }
 
-.land5 img {
+.land7 img {
     width: 45px;
     z-index: 9;
 }
 
-.object5 img {
+.object7 img {
     width: 100px;
     height: 100px;
     z-index: 1;
 }
 
-.object5 {
+.object7 #redMario {
+    filter: saturate(130%);
+}
+.object7  #blueMario {
+    filter: hue-rotate(280deg) saturate(130%);
+}
+
+.land7 #blueLand{
+    filter: hue-rotate(280deg) saturate(130%) contrast(200%);
+}
+.land7 #redLand{
+    filter: hue-rotate(340deg) saturate(130%) contrast(200%);
+}
+
+.object7 {
     width: 100%;
     height: 100%;
     position: absolute;
-    /* bottom: 50px; */
+    /* bottom: 50px;    */
 }
 
 
-.inputHeadings5 {
+.inputHeadings7 {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -76,7 +91,10 @@
     align-items: center;
 }
 
-.inputContainer5 input {
+.inputHeadings7 h1{
+    font-size: 28px;
+}
+.inputContainer7 input {
     width: 300px;
     padding: 12px;
     outline: none;
@@ -85,7 +103,7 @@
     font-size: 18px;
 }
 
-.inputContainer5 {
+.inputContainer7 {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -93,7 +111,7 @@
     gap: 15px;
 }
 
-.input5 {
+.input7 {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
@@ -101,13 +119,13 @@
 }
 
 
-.inputDiv5 {
+.inputDiv7 {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.inputContainer5 button {
+.inputContainer7 button {
     width: 120px;
     padding: 10px;
     font-size: 18px;
