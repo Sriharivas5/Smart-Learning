@@ -22,7 +22,7 @@ const Transform1 = () => {
          </div>
          <div>
          <h3>bird-B</h3>
-         <div style={{ transform: `rotate(${rotate})` }}>
+         <div style={{ transform: `${rotate}` }}>
           
           <img src={bird} id="bird" alt="#" />
         </div>
@@ -36,7 +36,7 @@ const Transform1 = () => {
           <h4>In General we'll give the rotate values with deg ex: 45deg</h4>
         </div>
         <div className="rightContent">
-          <h2 htmlFor="">transform: rotate()</h2>
+          <h2 htmlFor="">transform: </h2>
           <input
             type="text"
             value={rotateInput}
