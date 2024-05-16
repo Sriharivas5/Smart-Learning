@@ -30,6 +30,17 @@ const App = () => {
     <div className='app'>
       <BrowserRouter>
         <Routes>
+          <Route path='/Smart-Learning' element={<Home/>} />
+          <Route path='/Smart-Learning/Css' element={<Csshome/>} />
+          <Route path='/Smart-Learning/Js' element={<Javascript/>} />
+          <Route path='/Smart-Learning/Js/Basics/Level1' element={<Level1 />}/>
+          <Route path='/Smart-Learning/Css/Flex/Flex1' element={<Flex/>} />
+          <Route path='/Smart-Learning/Css/Flex/Flex2' element={<Flex2/>} />
+          <Route path='/Smart-Learning/Css/Flex/Flex3' element={<Flex3/>} />
+          <Route path='/Smart-Learning/Css/Flex/Flex4' element={<Flex4/>} />
+          <Route path='/Smart-Learning/Css/Flex/Flex5' element={<Flex5/>} />
+          <Route path='/Smart-Learning/Css/Flex/FlexIntro' element={<FlexIntro/>} />
+          <Route path='/Smart-Learning/Css/Transform/Transform1' element ={<Transform1/>}/>
           <Route path='/Smart-Learning' element={<Home />} />
           <Route path='/Smart-Learning/Css' element={<Csshome />} />
           <Route path='/Smart-Learning/Js' element={<Javascript />} />
@@ -58,18 +69,4 @@ const App = () => {
   )
 }
 
-export default App  
-
-// import React from 'react'
-// import Navbar from './Components/Navbar/Navbar'
-// import { BrowserRouter } from 'react-router-dom'
-
-// const App = () => {
-//   return (
-//     <div>
-//      <Navbar/>
-//     </div>
-//   )
-// }
-
-// export default App
+export default App
