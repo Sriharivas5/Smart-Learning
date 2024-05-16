@@ -82,8 +82,8 @@ h1 {
 }
 
 h3 {
-    color: aliceblue;
-    font-weight: 500;
+    /* color: aliceblue; */
+    /* font-weight: 500; */
     font-size: clamp(17px,1.3vw,20px);
 }
 

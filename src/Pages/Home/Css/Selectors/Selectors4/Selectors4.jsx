@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './Selectors.css'
+import './Selectors4.css'
 import girPng from '../assets/girlPng.png'
 import tigerEating from '../assets/tigerEating.png'
 import tigerGif from '../assets/tigerGif.gif'
@@ -8,7 +8,7 @@ import girPng2 from '../assets/girlPng2.png'
 import shaggyPng from '../assets/shaggyPng.png'
 import scoobyDogPng from '../assets/scoobyDogPng.png'
 import { Link } from 'react-router-dom'
-const Selectors = () => {
+const Selectors4 = () => {
     const [input, setInput] = useState('')
     const [changedId, setChangedId] = useState(false)
     const [finalInput, setFinalInput] = useState('')
@@ -19,26 +19,28 @@ const Selectors = () => {
         setShowCondition(true)
     }
     useEffect(() => {
-        finalInput == 'p' && setChangedId(true)
+        finalInput == '#heMan' && setChangedId(true)
     }, [finalInput])
 
     const jsxCode = `
-    <p> Select this p tag using appropriate selector to save the girl </p>
+    <h1 class='heMan'> Select this h1 tag using appropriate selector to save the girl </h1>
 `;
 
     return (
         <div>
 
             <div className="heading">
-                <h1>Level 1</h1>
+                <h1>Level 4</h1>
             </div>
             <div className='selectors'>
                 <div className='objects'>
                     <img src={tigerGif} class='tiger' id={changedId && 'reversedTiger'} />
-                    {showCondition && (
-                        finalInput === 'p' &&
-                        <img src={hemanPng} id='hemanPng' />
-                    )}
+                    {
+                        showCondition && (
+                            finalInput === '#heMan' ?
+                                <img src={hemanPng} id='hemanPng' /> :
+                                <img src={tigerEating} id='tigerEating' />)
+                    }
                     <img src={girPng2} id='girl' />
 
                 </div>
@@ -50,25 +52,25 @@ const Selectors = () => {
                 <div className='questions'>
 
 
-                    <pre><h2>{jsxCode}</h2></pre>
+                    <pre><h3>{jsxCode}</h3></pre>
 
 
                     <div style={{ display: 'flex', justifyContent: 'space-evenly' }}>
-                        <div >
-                            <img src={hemanPng} id='hemanPng' />
-                            <h1>p</h1>
+                        <div className='div' >
+                            <img src={shaggyPng} id='shaggyPng' />
+                            <h1>div</h1>
 
                         </div>
 
 
                         <div>
-                            <img src={shaggyPng} id='shaggyPng' />
-                            <h1>#para</h1>
+                            <img src={hemanPng} id='hemanPng' />
+                            <h1>#heMan</h1>
                         </div>
 
                         <div>
                             <img src={scoobyDogPng} id='scoobyDogPng' />
-                            <h1>.para</h1>
+                            <h1>.dog</h1>
 
                         </div>
 
@@ -78,7 +80,7 @@ const Selectors = () => {
                             if (e.key == 'Enter')
                                 handleCLick();
 
-                        }} readOnly={changedId&&true}/>
+                        }} readOnly={changedId && true} />
                         <button onClick={handleCLick}>Start the game</button>
                     </div>
 
@@ -87,7 +89,7 @@ const Selectors = () => {
 
 
                     {showCondition && (
-                        finalInput === 'p' ?
+                        finalInput === '#heMan' ?
                             <div className='nextLevel'> <h1>Hurray you saved the girl </h1><Link to='/Smart-Learning/Css/Selectors/Selectors2'><button>Next Level  &#129034;</button></Link></div> :
                             <h1>Oh pitty you didn't select the tag properly tiger killed the girl</h1>
                     )}
@@ -96,11 +98,12 @@ const Selectors = () => {
                 </div>
 
             </div>
+
         </div>
     )
 }
 
-export default Selectors
+export default Selectors4
 
 
 

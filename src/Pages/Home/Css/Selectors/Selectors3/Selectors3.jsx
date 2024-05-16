@@ -35,10 +35,12 @@ const Selectors3 = () => {
             <div className='selectors'>
                 <div className='objects'>
                     <img src={tigerGif} class='tiger' id={changedId && 'reversedTiger'} />
-                    {showCondition && (
-                        finalInput === '#heMan' &&
-                        <img src={hemanPng} id='hemanPng' />
-                    )}
+                    {
+                        showCondition && (
+                            finalInput === '#heMan' ?
+                                <img src={hemanPng} id='hemanPng' /> :
+                                <img src={tigerEating} id='tigerEating' />)
+                    }
                     <img src={girPng2} id='girl' />
 
                 </div>
@@ -88,7 +90,7 @@ const Selectors3 = () => {
 
                     {showCondition && (
                         finalInput === '#heMan' ?
-                            <div className='nextLevel'> <h1>Hurray you saved the girl </h1><Link to='/Smart-Learning/Css/Selectors/Selectors2'><button>Next Level  &#129034;</button></Link></div> :
+                            <div className='nextLevel'> <h1>Hurray you saved the girl </h1><Link to='/Smart-Learning/Css/Selectors/Selectors4'><button>Next Level  &#129034;</button></Link></div> :
                             <h1>Oh pitty you didn't select the tag properly tiger killed the girl</h1>
                     )}
 
@@ -96,7 +98,7 @@ const Selectors3 = () => {
                 </div>
 
             </div>
-       
+
         </div>
     )
 }

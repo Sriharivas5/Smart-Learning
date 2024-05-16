@@ -23,7 +23,7 @@ const Selectors2 = () => {
     }, [finalInput])
 
     const jsxCode = `
-    <div id='savier'> Select this div tag using appropriate selector to save the girl </div>
+    <div class='savier'> Select this div tag using appropriate selector to save the girl </div>
 `;
 
     return (

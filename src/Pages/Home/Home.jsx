@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./Home.css"
+import ScrollButton from '../../Components/ScrollToTop/ScrollToTop'
 const Home = () => {
   return (
     <div className='home'>
@@ -54,9 +55,7 @@ const Home = () => {
         <h3>Dive into Dynamic Components, Master State Management, and Innovate Your Projects! Elevate Your Development Journey and Lead the Evolution of Web Apps!</h3>
         <Link to='/Smart-Learning/Css'><button>Start Exploring React js !</button></Link>
       </div>
-      {/* <h1>css</h1> */}
-      {/* <Link to='/Smart-Learning/js'><h1>js</h1></Link> */}
-      {/* <h1>react</h1> */}
+     <ScrollButton/>
     </div>
   )
 }

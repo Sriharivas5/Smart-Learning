@@ -75,6 +75,10 @@ img {
     width: auto;
     height: 200px;
 }
+#displaNone{
+    display: none;
+}
+
 
 h1 {
     text-align: center;
@@ -82,7 +86,7 @@ h1 {
 }
 
 h3 {
-    color: aliceblue;
+    /* color: aliceblue; */
     font-weight: 500;
     font-size: clamp(17px,1.3vw,20px);
 }
