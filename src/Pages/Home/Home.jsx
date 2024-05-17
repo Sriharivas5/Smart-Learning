@@ -5,10 +5,12 @@ import ScrollButton from '../../Components/ScrollToTop/ScrollToTop'
 const Home = () => {
   return (
     <div className='home'>
-      <div className="hero">
-        <h1>Smart Learning</h1>
-        <h2>Unlock Your Coding Potential with Exciting Games!</h2>
-        <h3>Dive into a world where coding skills grow as you conquer each fun-packed level.</h3>
+      <div className="heroBackground">
+        <div className="hero">
+          <h1>Smart Learning</h1>
+          <h2>Unlock Your Coding Potential with Exciting Games!</h2>
+          <h3>Dive into a world where coding skills grow as you conquer each fun-packed level.</h3>
+        </div>
       </div>
 
       <div className="websiteIntro">
@@ -23,7 +25,7 @@ const Home = () => {
             CodeFun is an interactive platform designed to make your learning experience engaging and enjoyable. We believe that mastering web development doesn't have to be tedious. Instead, it can be an adventure filled with challenges and triumphs!
           </h4>
         </div>
-        
+
         <div>
           <h2>What Can You Do Here ?</h2>
 
@@ -33,7 +35,7 @@ const Home = () => {
           </h4>
           <br />
           <h4>	&#8594;
-             Build as You Go: As you progress through our games, you’ll not only learn the theory but also apply it by building projects. From simple web pages to more complex layouts, watch your code come to life as you play!
+            Build as You Go: As you progress through our games, you’ll not only learn the theory but also apply it by building projects. From simple web pages to more complex layouts, watch your code come to life as you play!
           </h4>
 
 
@@ -55,7 +57,7 @@ const Home = () => {
         <h3>Dive into Dynamic Components, Master State Management, and Innovate Your Projects! Elevate Your Development Journey and Lead the Evolution of Web Apps!</h3>
         <Link to='/Smart-Learning/Css'><button>Start Exploring React js !</button></Link>
       </div>
-     <ScrollButton/>
+      <ScrollButton />
     </div>
   )
 }

@@ -22,6 +22,8 @@ import Level2 from './Pages/Home/Javascript/Basics/Level2/Level2'
 import Level3 from './Pages/Home/Javascript/Basics/Level3/Level3'
 
 import Transform1 from './Pages/Home/Css/Transform/Transform1/Transform1'
+import Navbar from './Components/Navbar/Navbar'
+import Positions from './Pages/Home/Css/Positions/Positions'
 
 
 
@@ -29,7 +31,10 @@ const App = () => {
   return (
     <div className='app'>
       <BrowserRouter>
+      <Navbar/>
+
         <Routes>
+
           <Route path='/Smart-Learning' element={<Home/>} />
           <Route path='/Smart-Learning/Css' element={<Csshome/>} />
           <Route path='/Smart-Learning/Js' element={<Javascript/>} />
@@ -57,6 +62,8 @@ const App = () => {
           <Route path='/Smart-Learning/Css/Selectors/Selectors2' element={<Selectors2 />} />
           <Route path='/Smart-Learning/Css/Selectors/Selectors3' element={<Selectors3 />} />
           <Route path='/Smart-Learning/Css/Selectors/Selectors4' element={<Selectors4 />} />
+          <Route path='/Smart-Learning/Css/Positions/Positions1' element={<Positions />} />
+
 
           <Route path='/Smart-Learning/Js/Basics/Level1' element={<Level1 />} />
           <Route path='/Smart-Learning/Js/Basics/Level2' element={<Level2 />} />
