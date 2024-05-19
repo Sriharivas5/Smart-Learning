@@ -2,9 +2,11 @@
     padding: 5px 0;
     height: 5vh;
     background-image: linear-gradient(to right, #b1981a, #b35212, rgb(6, 80, 6));
+
 }
 .selectors {
     background-image: linear-gradient(to right, #b1981a, #b35212, rgb(6, 80, 6));
+
     display: flex;
     align-items: center;
     min-height: 95vh;
@@ -13,7 +15,7 @@
 .objects {
     min-width: 50%;
     height: 50vh;
-    background-image: url('../assets/background.jpg');
+    /* background-image: url('../assets/background.jpg'); */
     background-size: cover;
     display: flex;
     justify-content: space-between;

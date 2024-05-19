@@ -10,10 +10,14 @@
     width: 100%;
     height: 100vh;
     background-image: url('./assets/homeBackground.jpeg');
+    /* background-image: url('https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept-bright-vibrant-violet-isolated-illustration_335657-986.jpg?w=826&t=st=1716010655~exp=1716011255~hmac=c76c5e4788d8d260eace5c95cac82c4805c0dd7b9e83bf6069a5f492d734dbe0'); */
+    /* background-image: url('https://img.freepik.com/free-vector/app-development-concept-with-desktop_23-2148700922.jpg?w=740&t=st=1716010814~exp=1716011414~hmac=a5038f36c9ec67aada6822684b6258cec2600ba7149e950d016a75bd57fa474c'); */
+    background-position: center;
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+    filter: hue-rotate(10deg) contrast(160%) saturate(120%);
 }
 
 .hero {
@@ -37,7 +41,7 @@
     background-attachment: fixed;
     background-color: #00153c;
     /* From https://css.glass */
-    background: rgba(136, 136, 136, 0.09);
+    background: rgba(202, 202, 202, 0.294);
     border-radius: 16px;
     /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
     backdrop-filter: blur(5px);
@@ -54,6 +58,7 @@
     /* border: 3px solid rgb(0, 16, 79); */
     border-radius: 5px;
     color: #050832;
+    
     /* color: aliceblue; */
 
 }
@@ -73,7 +78,8 @@
     height: 50vh;    
     /* background-color: #daf7fe; */
     background-color: #C8C9E3;
-    background-image: radial-gradient(#DEE4F0, #C8C9E3, #a0a6cb);
+    /* background-image: radial-gradient(#DEE4F0, #C8C9E3, #a0a6cb); */
+    background-color: hsl(202, 100%, 92%);
     color: #00153c;
     display: flex;
     flex-direction: column;
@@ -108,7 +114,9 @@
     height: 50vh;
     /* background-color: #00153c; */
     background-color: #adb0ff;
-    background-image: radial-gradient(#00153e, #090b3b, #000425);
+    /* background-image: radial-gradient(#00153e, #090b3b, #000425); */
+    background-color: #102C5D;
+
     color: #e3f9ff;
     display: flex;
     flex-direction: column;
@@ -136,7 +144,9 @@
     height: 50vh;
     /* background-color: #daf7fe; */
     /* background-color: #C8C9E3; */
-    background-image: radial-gradient(#DEE4F0, #C8C9E3, #a0a6cb);
+    /* background-image: radial-gradient(#DEE4F0, #C8C9E3, #a0a6cb); */
+    background-color: hsl(202, 100%, 92%);
+
     color: #00153c;
     display: flex;
     flex-direction: column;
@@ -160,7 +170,8 @@
 
 .websiteIntro {
     color: aliceblue;
-    background-image: radial-gradient(#00153e, #090b3b, #000425);
+    /* background-image: radial-gradient(#00153e, #090b3b, #000425); */
+    background-color: #102C5D;
     display: flex;
     justify-content: center;
     align-items: center;

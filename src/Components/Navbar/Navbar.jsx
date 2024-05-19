@@ -11,7 +11,7 @@ const Navbar = () => {
                         <Link to='/Smart-Learning/Css'><li>Css Home</li></Link>
                         <Link to='/Smart-Learning/Css/Flex/FlexIntro'><li>Flex</li></Link>
                         <Link><li>Transform</li></Link>
-                        <Link><li>Selectors</li></Link>
+                        <Link  to='/Smart-Learning/Css/Selectors/SelectorsIntro'><li>Selectors</li></Link>
                         {/* <Link><li>Box Model</li></Link> */}
                         {/* <Link><li>Fonts</li></Link> */}
                         <Link><li>Position</li></Link>
