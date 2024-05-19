@@ -154,3 +154,7 @@
     border: none;
     border-radius: 7px;
 }
+.inputHeadings4 span{
+    color: #ff1afb;
+    font-weight: 900;
+}

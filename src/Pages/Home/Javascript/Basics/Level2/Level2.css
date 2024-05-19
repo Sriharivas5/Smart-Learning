@@ -26,7 +26,11 @@
     flex-direction: column;
     justify-content: space-evenly;
     /* font-size: 30px; */
+<<<<<<< HEAD
     font-size: clamp(16px,1.5vw,30px);
+=======
+    font-size: clamp(16px, 1.3vw, 30px); 
+>>>>>>> c51dd026dea8198c047be830411737d2d1f161e8
     text-align: center;
 
 }

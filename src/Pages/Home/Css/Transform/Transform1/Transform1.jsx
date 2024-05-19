@@ -1,59 +1,57 @@
-import React, { useState } from 'react'
-import './Transform1.css'
+import React, { useState } from "react";
+import "./Transform1.css";
+import bird from "../Assets/birds_PNG42.png";
 
 const Transform1 = () => {
-    const [scale, setScale] = useState(1)
-    const [scaleInput, setScaleInput] = useState(1)
+  const [rotate, setRotate] = useState();
+  const [rotateInput, setRotateInput] = useState();
 
-
-    const handleScale = () => {
-        setScale(scaleInput)
-    }
-    return (
-        <div className='transform'>
-
-            {/* <div className='scale'>
-
-                <div style={{ width: '100px', height: '100px', backgroundColor: 'white', transform: `scale(${scale})` }}>
-                </div>
-
-                <input type="text" value={scaleInput} onChange={(e) => setScaleInput(e.target.value)} />
-                <button onClick={handleScale}>Enter</button>
-            </div> */}
-
-
-            {/* <div className="scale">
-                <div style={{ width: '100px', height: '100px', backgroundColor: 'white', transform:  `skew(${scale}deg)` }}>
-                </div>
-
-                <input type="text" value={scaleInput} onChange={(e) => setScaleInput(e.target.value)} />
-                <button onClick={handleScale}>Enter</button>
-            </div> */}
-
-
-
-            <div className="scale">
-                <div style={{ width: '100px', height: '100px', backgroundColor: 'white', transform: `rotate(${scale}deg)` }}>
-                </div>
-
-                <input type="text" value={scaleInput} onChange={(e) => setScaleInput(e.target.value)} />
-                <button onClick={handleScale}>Enter</button>
-            </div>
-
-
-            {/* <div className="scale">
-                <div style={{ width: '100px', height: '100px', backgroundColor: 'white', transform: `translate(${scale}px)` }}>
-                </div>
-
-                <input type="text" value={scaleInput} onChange={(e) => setScaleInput(e.target.value)} />
-                <button onClick={handleScale}>Enter</button>
-            </div> */}
-
+  const handleRotate = () => {
+    setRotate(rotateInput);
+  };
+  return (
+    <div className="transform">
+      <div className="result">
+        <div className="resultContent">
+        <h3>enter the correct deg in input field and match bird-B with bird-A</h3>
         </div>
-    )
-}
+        <div className="resultS">
+         <div>
+          <h3>bird-A</h3>
+         <div><img src={bird} alt="#" />  </div>       
+         </div>
+         <div>
+         <h3>bird-B</h3>
+         <div style={{ transform: `${rotate}` }}>
+          
+          <img src={bird} id="bird" alt="#" />
+        </div>
+         </div>
+         
+        </div>
+      </div>
+      <div className="rotate">
+        <div className="rotateCont">
+          <h3>We have transform properties in CSS </h3>
+          <h4>In General we'll give the rotate values with deg ex: 45deg</h4>
+        </div>
+        <div className="rightContent">
+          <h2 htmlFor="">transform: </h2>
+          <input
+            type="text"
+            value={rotateInput}
+            onChange={(e) => setRotateInput(e.target.value)}
+            autoFocus
+            onKeyDown={(e) => {
+              if (e.key === "Enter") handleRotate();
+            }}
+          />
+        </div>
 
-export default Transform1
+        <button onClick={handleRotate}>Enter</button>
+      </div>
+    </div>
+  );
+};
 
-
-
+export default Transform1;
