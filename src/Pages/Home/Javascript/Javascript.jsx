@@ -4,7 +4,7 @@ import '../Javascript/Javascript.css'
 const Javascript = () => {
   const navigate = useNavigate();
   let handleNav = ()=>{
-      navigate("/Smart-Learning/Js/Basics/Level1")
+      navigate('/Smart-Learning/Js/Index')
   }
     
   return (

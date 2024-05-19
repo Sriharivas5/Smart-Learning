@@ -20,7 +20,9 @@ let level2Handle = ()=>{
         setOutput_level2("Try Again!!!")
         setLevel2_disabled(true)
     }
+
 }
+
   return (
     <div className="level2main">
       <div className={level2Left}>

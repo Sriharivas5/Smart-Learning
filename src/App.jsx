@@ -9,6 +9,8 @@ import Flex2 from './Pages/Home/Css/Flex/Flex2/Flex2'
 import Flex3 from './Pages/Home/Css/Flex/Flex3/Flex3'
 import Flex4 from './Pages/Home/Css/Flex/Flex4/Flex4'
 import Flex5 from './Pages/Home/Css/Flex/Flex5/Flex5'
+import While from '../src/Pages/Home/Javascript/Loops/WhileLoop/While'
+import If_Condition from '../src/Pages/Home/Javascript/Conditional_Statements/If/If_Condition'
 // <<<<<<< HEAD
 import FlexIntro from './Pages/Home/Css/Flex/FlexIntro/FlexIntro'
 // =======
@@ -21,6 +23,8 @@ import Level2 from './Pages/Home/Javascript/Basics/Level2/Level2'
 // =======
 import Transform1 from './Pages/Home/Css/Transform/Transform1/Transform1'
 import Level3 from './Pages/Home/Javascript/Basics/Level3/Level3'
+import Javascript_index from './Pages/Home/Javascript/Javascript_index/Javascript_index'
+import For_Loop from './Pages/Home/Javascript/Loops/ForLoop/For_Loop'
 // >>>>>>> a8cb3ea4800c9653311406afc6b4d7be657a5f59
 // >>>>>>> 1693ff51c48b5fed22ad663029d4fab8a12721e5
 
@@ -46,6 +50,10 @@ const App = () => {
 {/* ======= */}
           <Route path='/Smart-Learning/Css/Transform/Transform1' element={<Transform1/>} />
           <Route path='/Smart-Learning/Js/Basics/Level3' element={<Level3 />}/>
+          <Route path='/Smart-Learning/Js/Index' element={< Javascript_index/>}/>
+          <Route path='/Smart-Learning/Js/Loops/Forloop' element ={<For_Loop />}/>
+          <Route path='Smart-Learning/Js/Loops/WhileLoop' element = {<While />}/>
+          <Route path='Smart-Learning/Js/Conditions/If' element = {<If_Condition />}/>
 {/* >>>>>>> a8cb3ea4800c9653311406afc6b4d7be657a5f59 */}
 {/* >>>>>>> 1693ff51c48b5fed22ad663029d4fab8a12721e5? */}
         </Routes>
@@ -55,3 +63,5 @@ const App = () => {
 }
 
 export default App
+
+
