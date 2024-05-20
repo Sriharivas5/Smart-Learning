@@ -206,19 +206,6 @@ button {
     gap: 40px;
 }
 
-.intro {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-
-    background: rgba(158, 158, 158, 0.08);
-    border-radius: 6px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    border: 4px solid rgba(158, 158, 158, 0.3);
-}
 
 .flexintroContent {
     width: 100%;

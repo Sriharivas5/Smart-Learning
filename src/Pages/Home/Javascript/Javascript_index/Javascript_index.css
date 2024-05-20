@@ -13,14 +13,14 @@
 }
 li{
     text-decoration: none;
-    color: white;
+    /* color: white; */
 }
 li:hover{
     color: green;
 }
 ul{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
 }
 
