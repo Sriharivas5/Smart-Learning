@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+// <<<<<<< HEAD
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -128,7 +128,7 @@ const App = () => {
             path="/Smart-Learning/Css/Positions/Positions2"
             element={<Position2 />}
           />
-=======
+{/* ======= */}
           <Route path='/Smart-Learning' element={<Home/>} />
           <Route path='/Smart-Learning/Css' element={<Csshome/>} />
           <Route path='/Smart-Learning/Js' element={<Javascript/>} />
