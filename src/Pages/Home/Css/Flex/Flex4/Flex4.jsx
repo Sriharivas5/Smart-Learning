@@ -69,8 +69,8 @@ const Flex4 = () => {
               Mario's got tired take them to <span>Mushrooms</span>
             </h1>
             <h3>Use the properties like </h3>
-            <h3>Justify-Content: space-between, space-evenly, space-around</h3>
-            <h3>Align-items: center, flex-start, flex-end</h3>
+            <h3>Justify-Content: <span className="italic">space-between, space-evenly, space-around</span></h3>
+            <h3>Align-items: <span className="italic">center, flex-start, flex-end</span></h3>
           </div>
 
           <div className="input4">

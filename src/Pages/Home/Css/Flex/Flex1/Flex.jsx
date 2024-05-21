@@ -9,7 +9,6 @@ const Flex = () => {
   const [alignItems, setAlignItems] = useState("");
 
   const [justifyContentInput, setJustifyContentInput] = useState("");
-
   const [alignItemsInput, setAlignItemsInput] = useState("");
   const [button, setButton] = useState(false);
 

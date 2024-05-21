@@ -3,7 +3,8 @@ import "./Position2.css";
 import dogGif from "../assets/dogGif.gif";
 import dogFood from "../assets/dogFood.png";
 const Position2 = () => {
-  const [positionInput, setPositionInput] = useState("");
+  const [positionRealtiveInput, setPositionRealtiveInput] = useState("");
+  const [positionAbsoluteInput, setPositionAbsoluteInput] = useState("");
 
   const [leftInput, setLeftInput] = useState("");
   const [finalLeftInput, setFinalLeftInput] = useState("0px");
@@ -16,19 +17,23 @@ const Position2 = () => {
   const [finalBottomBoyInput, setFinalBottomBoyInput] = useState("0px");
 
   const handleClick = () => {
-    if (positionInput == "") {
+    if (positionRealtiveInput == "" || positionAbsoluteInput == "") {
       alert("Please fill the position input field");
-    } else {
+    } else if (
+      positionRealtiveInput.toLowerCase() == "relative" &&
+      positionAbsoluteInput.toLowerCase() == "absolute"
+    ) {
       setFinalLeftInput(leftInput);
       setFinalBottomInput(bottomInput);
       setFinalLeftBoyInput(leftBoyInput),
         setFinalBottomBoyInput(bottomBoyInput);
+    } else {
+      alert("Please enter apropriate position values");
     }
   };
   return (
     <div className="position2">
       <div className="positionImage2">
-        <h1>Use position properties to feed the odg</h1>
         <div className="parent2">
           <div
             id="boy2"
@@ -40,7 +45,6 @@ const Position2 = () => {
             <img
               src={dogGif}
               style={{
-                position: positionInput,
                 left: finalLeftInput,
                 top: finalBottomInput,
               }}
@@ -52,7 +56,14 @@ const Position2 = () => {
       </div>
       <div className="positionInput">
         <div className="positionInputHeading">
-          <h2>H</h2>
+          <h2>
+            Help the dog to reach the food along with boy , now you can use both
+            properties relative and absolute
+          </h2>
+          <h3>
+            Hint : Assume boy as parent and dog as child ,enjoy the fun by
+            feeding dog{" "}
+          </h3>
         </div>
         <div className="positionInputContainer2">
           <div className="positionInputRelativeChild2">
@@ -63,8 +74,8 @@ const Position2 = () => {
               <h2>position : </h2>
               <input
                 type="text"
-                value={positionInput}
-                onChange={(e) => setPositionInput(e.target.value)}
+                value={positionRealtiveInput}
+                onChange={(e) => setPositionRealtiveInput(e.target.value)}
               />
             </div>
             <div className="commonInputParent2">
@@ -94,8 +105,8 @@ const Position2 = () => {
               <h2>position : </h2>
               <input
                 type="text"
-                value={positionInput}
-                onChange={(e) => setPositionInput(e.target.value)}
+                value={positionAbsoluteInput}
+                onChange={(e) => setPositionAbsoluteInput(e.target.value)}
               />
             </div>
             <div className="commonInputParent2">

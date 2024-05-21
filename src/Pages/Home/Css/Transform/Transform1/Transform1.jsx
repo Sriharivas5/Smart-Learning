@@ -13,21 +13,23 @@ const Transform1 = () => {
     <div className="transform">
       <div className="result">
         <div className="resultContent">
-        <h3>enter the correct deg in input field and match bird-B with bird-A</h3>
+          <h3>
+            enter the correct deg in input field and match bird-B with bird-A
+          </h3>
         </div>
         <div className="resultS">
-         <div>
-          <h3>bird-A</h3>
-         <div><img src={bird} alt="#" />  </div>       
-         </div>
-         <div>
-         <h3>bird-B</h3>
-         <div style={{ transform: `${rotate}` }}>
-          
-          <img src={bird} id="bird" alt="#" />
-        </div>
-         </div>
-         
+          <div>
+            <h3>bird-A</h3>
+            <div>
+              <img src={bird} alt="#" />{" "}
+            </div>
+          </div>
+          <div>
+            <h3>bird-B</h3>
+            <div style={{ transform: `${rotate}` }}>
+              <img src={bird} id="bird" alt="#" />
+            </div>
+          </div>
         </div>
       </div>
       <div className="rotate">

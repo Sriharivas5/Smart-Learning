@@ -1,8 +1,8 @@
 .main4 {
     max-width: 100vw;
-    height: 100vh;
+    height: 90vh;
     text-align: center;
-    padding: 20px 0 0 0;
+    padding: 20px 0 ;
     /* display: flex; */
     /* align-items: center; */
     /* gap: 30px; */
@@ -112,6 +112,10 @@
     justify-content: center;
     align-items: center;
 }
+ .italic{
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+}
 
 .inputContainer4 input {
     width: 300px;
@@ -156,7 +160,7 @@
     border: none;
     border-radius: 7px;
 }
-.inputHeadings4 span{
+.inputHeadings4 h1 span{
     color: #ff1afb;
     font-weight: 900;
 }

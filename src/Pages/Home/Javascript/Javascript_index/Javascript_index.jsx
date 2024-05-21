@@ -21,7 +21,7 @@ const Javascript_index = () => {
         <div className="types"  >
             <h2 onClick={()=>{setTypes (!types)}}>Conditions</h2>
            {types && < ><ul>
-           <Link to={'Smart-Learning/Js/Conditions/If'} style={{textDecoration : "none"}}> <li>if/else</li></Link>
+           <Link to={'/Smart-Learning/Js/Conditions/If'} style={{textDecoration : "none"}}> <li>if/else</li></Link>
            <Link to={'/Smart-Learning/Js/Basics/Level2'} style={{textDecoration : "none"}}> <li>switch</li></Link>
 
 

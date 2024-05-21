@@ -12,11 +12,23 @@
   display: flex;
   align-items: center;
 }
+
+.note h2{
+  color: white;
+}
+.note h3{
+  color: black;
+  font-size: 19px;
+  font-style: italic;
+  text-align: left;
+  padding: 0;
+  font-weight: 500;}
 .positionInput {
   width: 50%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 }
 .position .parent {
@@ -30,7 +42,6 @@
   border: 2px solid rgba(123, 123, 123, 0.604);
   /* transition: all ease-in-out 3s; */
   display: flex;
-  /* justify-content: space-between; */
 }
 #dog{
     width: 45%;

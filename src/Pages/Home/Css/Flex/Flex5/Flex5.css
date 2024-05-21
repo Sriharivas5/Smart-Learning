@@ -2,7 +2,7 @@
     max-width: 100vw;
     height: 100vh;
     text-align: center;
-    padding: 20px 0 0 0;    
+    padding: 20px 0;    
     background-image: linear-gradient(to right, #D4F1F8, #3773a5);
     background-image: linear-gradient(to right, #69aceb, #095a9d);
 
@@ -21,6 +21,8 @@
     align-items: center;
     gap: 30px;
 }
+
+
 
 .container5 {
     width: 50%;
