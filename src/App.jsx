@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
@@ -98,6 +98,7 @@ const App = () => {
             path="/Smart-Learning/Css/Positions/Positions2"
             element={<Position2 />}
           />
+
 
           <Route
             path="/Smart-Learning/Css/Transform/Transform1"
