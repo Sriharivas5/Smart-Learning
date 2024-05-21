@@ -1,38 +1,32 @@
 .main2 {
-    max-width: 100vw;
-    height: 100vh;
-    padding: 10px;
-    text-align: center;
-    /* background-image: linear-gradient(#C02425,#f08c35,#b43aac); */
-    /* background-image: radial-gradient(rgb(0, 79, 22),black); */
-    background-image: linear-gradient(to right, #D4F1F8, #3773a5);
-    background-image: linear-gradient(to right, #69aceb, #095a9d);
+  max-width: 100vw;
+  height: 90vh;
+  padding: 10px;
+  text-align: center;
+  /* background-image: linear-gradient(#C02425,#f08c35,#b43aac); */
+  /* background-image: radial-gradient(rgb(0, 79, 22),black); */
+  background-image: linear-gradient(to right, #69aceb, #095a9d);
 
-    /* background-image: radial-gradient(rgb(0, 0, 79),black); */
-
+  padding: 20px 0;
 }
 
 .leve2 {
-    height: 5%;
-
+  height: 5%;
 }
 
 .gameContainer2 {
-    width: 100%;
-    height: 95%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    background-image: linear-gradient(to right, #D4F1F8, #3773a5);
-    background-image: linear-gradient(to right, #69aceb, #095a9d);
-
+  width: 100%;
+  height: 95%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .container2 {
-    width: 50%;
-    height: 70%;
-    /* background-image: url('https://cdn.vectorstock.com/i/500p/42/78/sunset-landscape-with-sea-and-mountains-vector-38924278.avif');
+  width: 50%;
+  height: 70%;
+  /* background-image: url('https://cdn.vectorstock.com/i/500p/42/78/sunset-landscape-with-sea-and-mountains-vector-38924278.avif');
 
 
     background-image: url('https://cdn.vectorstock.com/i/500p/00/68/natural-cartoon-landscape-with-mountains-and-lake-vector-49010068.avif');
@@ -42,29 +36,29 @@
 
     background-image: url('https://cdn.pixabay.com/photo/2023/11/29/03/52/ai-generated-8418631_1280.jpg'); */
 
-    background-image: url('../assets/ground.png'), url('../assets/sky.jpg');
-    /* background-image: url('./assets/ground2.jpg'); */
-    border-radius: 5px;
-    background-position: right bottom, left top;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    /* padding: 10px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    position: relative;
+  background-image: url("../assets/ground.png"), url("../assets/sky.jpg");
+  /* background-image: url('./assets/ground2.jpg'); */
+  border-radius: 5px;
+  background-position: right bottom, left top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* padding: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
 }
 
 .land2 {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 70px;
-    /* border: 2px solid red; */
-    /* width: 20%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 70px;
+  /* border: 2px solid red; */
+  /* width: 20%;
     height: 10%;
     background-image: url('./assets/bricks.png');
     background-size: 33%;
@@ -72,82 +66,80 @@
 }
 
 .land2 img {
-    width: 50px;
+  width: 50px;
 }
 
 .object2 img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
 
 .object2 {
-    /* width: 200px; */
-    /* height: 200px; */
-    /* background-image: url('./assets/pikachu.png'); */
-    /* background-image: url('./assets/grassPokemon.png'); */
-    /* background-image: url('./assets/icePokemon.png'); */
-    /* background-image: url('./assets/flyingPokemon2.png'); */
-    /* background-size: contain;
+  /* width: 200px; */
+  /* height: 200px; */
+  /* background-image: url('./assets/pikachu.png'); */
+  /* background-image: url('./assets/grassPokemon.png'); */
+  /* background-image: url('./assets/icePokemon.png'); */
+  /* background-image: url('./assets/flyingPokemon2.png'); */
+  /* background-size: contain;
     background-position: center;
     background-repeat: no-repeat; */
-    width: 100%;
-    height: 100%;
-    position: absolute;
-
+  width: 100%;
+  height: 100%;
+  position: absolute;
 }
 
 .inputHeadings2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 .inputContainer2 input {
-    width: 300px;
-    padding: 15px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    font-size: 18px;
+  width: 300px;
+  padding: 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 .inputContainer2 {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .input2 {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  gap: 20px;
 }
 
 h1 {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .inputDiv2 {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .inputContainer2 button {
-    width: 120px;
-    padding: 10px;
-    font-size: 18px;
-
+  width: 120px;
+  padding: 10px;
+  font-size: 18px;
 }
 
 #nextLevel2 {
-    background-color: #D4F1F8;
-    border: none;
-    border-radius: 7px;
+  background-color: #d4f1f8;
+  border: none;
+  border-radius: 7px;
 }

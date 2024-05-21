@@ -45,31 +45,36 @@ const Navbar = () => {
                     </ul>
                 </li>
             </ul> */}
-      <ul class="nav ">
-      <li><Link to="/Smart-Learning/"> <h1>Home</h1></Link></li>
+      <ul className="nav ">
+        <li>
+          <Link to="/Smart-Learning/">
+            {" "}
+            <h1>Home</h1>
+          </Link>
+        </li>
         <li>
           <h1>Css</h1>
-          <ul class="dropdown">
+          <ul className="dropdown">
             <Link to="/Smart-Learning/Css">
               <li>Css Home</li>
             </Link>
             <Link to="/Smart-Learning/Css/Flex/FlexIntro">
               <li>Flex</li>
             </Link>
-            <Link>
-              <li>Transform</li>
-            </Link>
             <Link to="/Smart-Learning/Css/Selectors/SelectorsIntro">
               <li>Selectors</li>
             </Link>
-            <Link>
+            <Link to="/Smart-Learning/Css/Positions/PositionIntro">
               <li>Position</li>
+            </Link>
+            <Link>
+              <li>Transform</li>
             </Link>
             <Link>
               <li>Grid</li>
             </Link>
             <Link>
-              <li>Pseudo-Class</li>
+              <li>Pseudo-className</li>
             </Link>
             <Link>
               <li>Pseudo-Element</li>
@@ -78,7 +83,7 @@ const Navbar = () => {
         </li>
         <li>
           <h1>JavaScript</h1>
-          <ul class="dropdown">
+          <ul className="dropdown">
             <Link to="/Smart-Learning/Js">
               <li>Javascript</li>
             </Link>
@@ -91,7 +96,7 @@ const Navbar = () => {
             <Link>
               <li>Box Model</li>
             </Link>
-           
+
             <Link>
               <li>Pseudo-Element</li>
             </Link>
@@ -99,7 +104,7 @@ const Navbar = () => {
         </li>
         <li>
           <h1>React js</h1>
-          <ul class="dropdown">
+          <ul className="dropdown">
             <li>Menu 1</li>
             <li>Menu 2</li>
             <li>Menu 3</li>

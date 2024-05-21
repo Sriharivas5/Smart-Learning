@@ -11,16 +11,16 @@
     /* background-image: linear-gradient(to left,blue,white); */
     /* border: 1px solid black; */
 }
-li{
+.js_index_main li{
     text-decoration: none;
-    /* color: white; */
+    color: white;
 }
-li:hover{
-    color: green;
+.js_index_main li:hover{
+    color: rgb(0, 140, 33);
 }
-ul{
+.js_index_main ul{
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     align-items: center;
 }
 

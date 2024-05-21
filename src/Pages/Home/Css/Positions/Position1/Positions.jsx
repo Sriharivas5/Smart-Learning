@@ -1,19 +1,24 @@
 import React, { useState } from "react";
 import "./Positions.css";
+import { Link } from "react-router-dom";
 import dogGif from "../assets/dogGif.gif";
 import dogFood from "../assets/dogFood.png";
 const Positions = () => {
   const [positionInput, setPositionInput] = useState("");
-  const [finalPositionInput, setfinalPositionInput] = useState("");
   const [leftInput, setLeftInput] = useState("");
   const [finalLeftInput, setFinalLeftInput] = useState("0px");
   const [bottomInput, setBottomInput] = useState("");
   const [finalBottomInput, setFinalBottomInput] = useState("0px");
 
   const handleClick = () => {
-    setfinalPositionInput(positionInput);
-    setFinalLeftInput(leftInput);
-    setFinalBottomInput(bottomInput);
+    if (positionInput == "") {
+      alert("Please fill the position input");
+    } else if (positionInput.toLowerCase() == "relative") {
+      setFinalLeftInput(leftInput);
+      setFinalBottomInput(bottomInput);
+    } else {
+      alert("Please please fill the position input field with valid value");
+    }
   };
   return (
     <div className="position">
@@ -22,7 +27,6 @@ const Positions = () => {
           <img
             src={dogGif}
             style={{
-              position: positionInput,
               left: finalLeftInput,
               top: finalBottomInput,
             }}
@@ -33,7 +37,8 @@ const Positions = () => {
       </div>
       <div className="positionInput">
         <div className="note">
-          <h1></h1>
+          <h2>Help the dog to reach food </h2>
+          <h3>Hint : use position one of the property relative </h3>
         </div>
         <div className="positionInputChild">
           <div className="commonInputParent">
@@ -42,6 +47,7 @@ const Positions = () => {
               type="text"
               value={positionInput}
               onChange={(e) => setPositionInput(e.target.value)}
+              onKeyDown={(e)=>{if(e.key=="Enter"){handleClick()}}}
             />
           </div>
           <div className="commonInputParent">
@@ -51,6 +57,8 @@ const Positions = () => {
               placeholder="left"
               onChange={(e) => setLeftInput(e.target.value)}
               value={leftInput}
+              onKeyDown={(e)=>{if(e.key=="Enter"){handleClick()}}}
+
             />
           </div>
           <div className="commonInputParent">
@@ -60,10 +68,15 @@ const Positions = () => {
               placeholder="top"
               onChange={(e) => setBottomInput(e.target.value)}
               value={bottomInput}
+              onKeyDown={(e)=>{if(e.key=="Enter"){handleClick()}}}
+             
             />
           </div>
           <button onClick={handleClick}>Submit</button>
         </div>
+        <Link to="/Smart-Learning/Css/Positions/Positions2">
+          <button>Next Level</button>
+        </Link>
       </div>
     </div>
   );
