@@ -30,7 +30,7 @@ const Flex5 = () => {
     ) {
       setButton(true);
     }
-  }, [justifyContent, alignItems]);
+  }, [justifyContent, alignItems,flexDirection]);
   return (
     <div className="main5">
       <div className="level5">

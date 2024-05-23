@@ -86,18 +86,18 @@ const Navbar = () => {
             <Link to="/Smart-Learning/Js">
               <li>Javascript</li>
             </Link>
-            <Link>
-              <li>Transform</li>
+            <Link to="/Smart-Learning/Js/Basics/Level1">
+              <li>Basics</li>
             </Link>
-            <Link>
-              <li>Selectors</li>
+            <Link to="/Smart-Learning/Js/Conditions/If">
+              <li>Conditional Statements</li>
             </Link>
-            <Link>
-              <li>Box Model</li>
+            <Link to="/Smart-Learning/Js/Loops/Forloop">
+              <li>Loops</li>
             </Link>
 
-            <Link>
-              <li>Pseudo-Element</li>
+            <Link to="/Smart-Learning/Js/Arrays/Array1">
+              <li>Arrays</li>
             </Link>
           </ul>
         </li>

@@ -38,7 +38,7 @@ const Positions = () => {
       <div className="positionInput">
         <div className="note">
           <h2>Help the dog to reach food </h2>
-          <h3>Hint : use position one of the property relative </h3>
+          <h3>Hint : use position property relative </h3>
         </div>
         <div className="positionInputChild">
           <div className="commonInputParent">

@@ -23,7 +23,7 @@
 
 .container7 {
     width: 50%;
-    height: 80%;
+    height: 70%;
     background-image: url('../assets/ground.png'), url('../assets/sky.jpg');
     border-radius: 5px;
     background-position: right bottom, left top;

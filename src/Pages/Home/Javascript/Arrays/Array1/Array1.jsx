@@ -13,17 +13,18 @@ const Array1 = () => {
     setFinalTextArea(textArea);
   };
   useEffect(() => {
-    //     let s
-    // let s1 = s.substring(7,s.length).replace(/ /g,"")
+         
+    // let s1 = finalTextArea.substring(7,finalTextArea.length).replace(/ /g,"")
     // let s2 = s1.replace(/'/g,'"')
+    // setFinalTextArea(finalTextArea.substring(0,7)+s2)
 
     if (
-      finalTextArea == 'const parking =["car1","car2","car3"]' ||
-      finalTextArea == 'var parking =["car1","car2","car3"]' ||
-      finalTextArea == 'let parking =["car1","car2","car3"]' ||
-      finalTextArea == "const parking =['car1','car2','car3']" ||
-      finalTextArea == "var parking =['car1','car2','car3']" ||
-      finalTextArea == "let parking =['car1','car2','car3']"
+      finalTextArea == 'const parking =["car1","car2","car3","car4"]' ||
+      finalTextArea == 'var parking =["car1","car2","car3","car4"]' ||
+      finalTextArea == 'let parking =["car1","car2","car3","car4"]' ||
+      finalTextArea == "const parking =['car1','car2','car3','car4']" ||
+      finalTextArea == "var parking =['car1','car2','car3','car4']" ||
+      finalTextArea == "let parking =['car1','car2','car3','car4']"
     ) {
       setImageClass("moveCar");
     } else {
@@ -35,7 +36,7 @@ const Array1 = () => {
       <div className="array1Image">
         <div className="array1Description">
           <h2>
-            Store values <span id="arrayValues">car1 , car2 , car3</span> in the
+            Store values <span id="arrayValues">car1 , car2 , car3 ,car4</span> in the
             array named <span id="arrayName">parking</span>
           </h2>
           <h3>To park the cars in parking space</h3>

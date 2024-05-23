@@ -137,7 +137,7 @@ const App = () => {
           />
           <Route path="Smart-Learning/Js/Loops/WhileLoop" element={<While />} />
           <Route
-            path="Smart-Learning/Js/Conditions/If"
+            path="/Smart-Learning/Js/Conditions/If"
             element={<If_Condition />}
           />
           <Route path="Smart-Learning/Js/Conditions/Else" element={<Else />} />

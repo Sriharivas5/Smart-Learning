@@ -139,6 +139,7 @@
 }
 
 #nextLevel {
+  min-width:150px;
   background-color: #d4f1f8;
   border: none;
   border-radius: 7px;

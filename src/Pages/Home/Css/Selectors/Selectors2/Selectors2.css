@@ -1,5 +1,6 @@
 .selectorsContainer {
   max-width: 100vw;
+  color: aliceblue  ;
   background-image: linear-gradient(to right, #4e4e8e, #031c37);
 }
 .heading {
