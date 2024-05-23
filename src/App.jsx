@@ -22,6 +22,10 @@ import Level2 from './Pages/Home/Javascript/Basics/Level2/Level2'
 import Level3 from './Pages/Home/Javascript/Basics/Level3/Level3'
 
 import Transform1 from './Pages/Home/Css/Transform/Transform1/Transform1'
+import Transform2 from './Pages/Home/Css/Transform/Transform2/Transform2'
+import Transform3 from './Pages/Home/Css/Transform/Transform3/Transform3'
+import Transform4 from './Pages/Home/Css/Transform/Transform4/Transform4'
+
 
 
 
@@ -62,6 +66,11 @@ const App = () => {
           <Route path='/Smart-Learning/Js/Basics/Level2' element={<Level2 />} />
           <Route path='/Smart-Learning/Js/Basics/Level3' element={<Level3 />} />
           <Route path='/Smart-Learning/Css/Transform/Transform1' element={<Transform1 />} />
+          <Route path='/Smart-Learning/Css/Transform/Transform2' element={<Transform2/>} />
+          <Route path='/Smart-Learning/Css/Transform/Transform3' element={<Transform3/>} />
+          <Route path='/Smart-Learning/Css/Transform/Transform4' element={<Transform4/>} />
+
+
 
         </Routes> 
       </BrowserRouter>

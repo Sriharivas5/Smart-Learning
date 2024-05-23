@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import "./Transform2.css";
-// import bird from "../Assets/birds_PNG42.png";
-
+import "./Transform4.css";
+import boy from '../Assets/Baby-Crawl-Cycle-unscreen.gif'
+import toy from '../Assets/toy-removebg-preview.png'
 const Transform1 = () => {
-  const [skew, setRotate] = useState();
+  const [translateX, setRotate] = useState();
   const [rotateInput, setRotateInput] = useState();
 
   const handleRotate = () => {
@@ -13,19 +13,21 @@ const Transform1 = () => {
     <div className="transform">
       <div className="result1">
         <div className="resultContent">
-        <h3>enter the correct transform property and its values in input field and match <br/>Box-B with Box-A</h3>
+        <h3>enter the correct transform property and its values in input field and move <br/>Boy towards Toy</h3>
         </div>
         <div className="results">
          <div className="skew">
-          <h3>Box-A</h3>
-          <div className="skewbox1"> </div>       
+          <h3>Boy</h3>
+          <div  >
+          <div className="boyimg" ><img src={boy} alt=""  style={{ transform: `${translateX}` }}/> </div>    
+          </div>   
           </div>
-         <div className="skew">
-         <h3>Box-B</h3>
-         <div style={{ transform: `${skew}` }}>
+         <div className="skew1">
+         <h3>Toy</h3>
+         
           
-         <div className="skewbox2"> </div>       
-        </div>
+         <div className="toyimg"><img src={toy} alt="" /></div>       
+       
          </div>
          
         </div>
