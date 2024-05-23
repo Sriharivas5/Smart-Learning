@@ -28,6 +28,12 @@ import Positions from "./Pages/Home/Css/Positions/Position1/Positions";
 import Position2 from "./Pages/Home/Css/Positions/Position2/Position2";
 
 import Transform1 from "./Pages/Home/Css/Transform/Transform1/Transform1";
+import Transform2 from "./Pages/Home/Css/Transform/Transform2/Transform2";
+import Transform3 from "./Pages/Home/Css/Transform/Transform3/Transform3";
+import Transform4 from "./Pages/Home/Css/Transform/Transform4/Transform4";
+
+
+
 
 import Javascript_index from "./Pages/Home/Javascript/Javascript_index/Javascript_index";
 
@@ -103,6 +109,18 @@ const App = () => {
           <Route
             path="/Smart-Learning/Css/Transform/Transform1"
             element={<Transform1 />}
+          />
+          <Route
+            path="/Smart-Learning/Css/Transform/Transform2"
+            element={<Transform2 />}
+          />
+          <Route
+            path="/Smart-Learning/Css/Transform/Transform3"
+            element={<Transform3 />}
+          />
+          <Route
+            path="/Smart-Learning/Css/Transform/Transform4"
+            element={<Transform4 />}
           />
 
           <Route
