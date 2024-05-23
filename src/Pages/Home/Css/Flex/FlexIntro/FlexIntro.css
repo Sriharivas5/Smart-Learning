@@ -4,12 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url('../../../assets/background7.jpg');
-    /* background-image: url('https://img.freepik.com/free-vector/gradient-geometric-design-dark-background_23-2148425667.jpg'); */
+    background-image: url('../../../assets/introBackground.jpeg');
     filter: contrast(130%);
     background-size: cover;
     color: aliceblue;
-    background-position: center;
+    background-position:0% 20% ;
     background-attachment: fixed;
     gap: 30px;
 }
@@ -25,7 +24,14 @@
 .headindFlex h1 {
     font-size: 50px;
 }
+.flexIntroHeader{
+    padding-left: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
+}
 .flexIntroHeader h2 {
     color: rgb(255, 255, 255);
     font-size: 30px;
@@ -206,19 +212,6 @@ button {
     gap: 40px;
 }
 
-.intro {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-
-    background: rgba(158, 158, 158, 0.08);
-    border-radius: 6px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(8px);
-    border: 4px solid rgba(158, 158, 158, 0.3);
-}
 
 .flexintroContent {
     width: 100%;

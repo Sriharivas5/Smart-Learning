@@ -25,7 +25,7 @@ const FlexIntro = () => {
       </div>
       <div className="exampleFlex">
         <div className="exampleFlexHeading">
-          <h2> Example :</h2>
+          {/* <h2> Example :</h2> */}
         </div>
         <h2>div</h2>
         <div className='flexContainer'>

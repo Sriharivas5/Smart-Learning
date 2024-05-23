@@ -1,5 +1,5 @@
 #scrollToTop{
-position: absolute;
+position: fixed;
 bottom: 10px;
 right: 10px;
 background-image: linear-gradient(to right bottom  ,#000278 , #00D7FF);

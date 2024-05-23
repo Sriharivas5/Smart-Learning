@@ -3,8 +3,8 @@
     height: 100vh;
     text-align: center;
     padding: 20px 0 0 0;
-    background-image: linear-gradient(to right, #D4F1F8, #3773a5);
-    background-image: url('../assets/FlexBackground.jpg');
+    background-image: linear-gradient(to right, #69aceb, #095a9d);
+    /* background-image: url('../assets/FlexBackground.jpg'); */
     /* background-image: url('../assets/flexBackground2.jpg'); */
     /* background-image: url('../assets/flexBackground3.jpg'); */
     background-position: center;
@@ -153,9 +153,15 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
+<<<<<<< HEAD
     background-color: #ffffff12;
     backdrop-filter: blur(3px) ;
     backdrop-filter: blur(2px) ;
+=======
+    /* background-color: #ffffff12; */
+
+
+>>>>>>> ea87c29b6703d0c1f7902f78e78a755c93af5f1a
     border-radius: 5px;
 }
 
