@@ -153,15 +153,9 @@
     flex-direction: column;
     align-items: center;
     gap: 15px;
-<<<<<<< HEAD
     background-color: #ffffff12;
     backdrop-filter: blur(3px) ;
     backdrop-filter: blur(2px) ;
-=======
-    /* background-color: #ffffff12; */
-
-
->>>>>>> ea87c29b6703d0c1f7902f78e78a755c93af5f1a
     border-radius: 5px;
 }
 
