@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Transform2.css";
 // import bird from "../Assets/birds_PNG42.png";
+import { Link } from "react-router-dom";
 
 const Transform1 = () => {
   const [skew, setRotate] = useState();
@@ -48,8 +49,11 @@ const Transform1 = () => {
           />
         </div>
 
-        <button onClick={handleRotate}>Enter</button>
-      </div>
+
+        <div className="transformButtons">
+          <button onClick={handleRotate}>Enter</button>
+          <Link to='/Smart-Learning/Css/Transform/Transform3'><button>Next Level &#129034;</button></Link>
+        </div>      </div>
     </div>
   );
 };

@@ -66,7 +66,7 @@ const Navbar = () => {
             <Link to="/Smart-Learning/Css/Positions/PositionIntro">
               <li>Position</li>
             </Link>
-            <Link>
+            <Link to="/Smart-Learning/Css/Transform/Transform1">
               <li>Transform</li>
             </Link>
             <Link>
