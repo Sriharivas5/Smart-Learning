@@ -28,7 +28,7 @@
 
 }
 .rotate input{
-    width: 130px;
+    width: 180px;
     height: 38px;
     border-radius: 12px;
     border: none;
@@ -78,30 +78,34 @@ justify-content: center;
 /* some */
 
  
-.skewbox2{
-    height: 160px;
-    width: 140px;
-    background-color: lightcoral;
-    box-shadow:4px 5px 10px 8px   #28464d;
-
-}
-.skewbox1{
-    height: 160px;
-    width: 140px;
-    background-color: limegreen;
-    transform: skew(30deg);
-    box-shadow:4px 5px 10px 8px   #28464d;
 
 
-}
 
 .skew{
    display: flex;
    flex-direction: column;
-   gap: 25px;
+   gap: 50px;
+   text-align: start;
+
 }
-.skewbox1 h5{
-    color: aliceblue;
-    text-align: center;
-    
+
+.skew1{
+    text-align: end;
+
+}
+
+
+ img {
+
+  transition: all 5s ease-in-out;
+}
+.boyimg{
+    transform: translateX(-100px);
+
+}
+.toyimg {
+    /* mix-blend-mode:overlay; */
+    width: 150px;
+    /* transform: translateX(-100px); */
+
 }

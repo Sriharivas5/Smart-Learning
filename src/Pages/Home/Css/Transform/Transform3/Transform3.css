@@ -78,18 +78,18 @@ justify-content: center;
 /* some */
 
  
-.skewbox2{
+.skewboxes2{
     height: 160px;
     width: 140px;
-    background-color: lightcoral;
+    background-color: rgb(225, 72, 25);
     box-shadow:4px 5px 10px 8px   #28464d;
 
 }
-.skewbox1{
+.skewboxes1{
     height: 160px;
     width: 140px;
-    background-color: limegreen;
-    transform: skew(30deg);
+    background-color: rgb(220, 220, 87);
+    transform: scale(1.6);  
     box-shadow:4px 5px 10px 8px   #28464d;
 
 
@@ -98,7 +98,7 @@ justify-content: center;
 .skew{
    display: flex;
    flex-direction: column;
-   gap: 25px;
+   gap: 90px;
 }
 .skewbox1 h5{
     color: aliceblue;

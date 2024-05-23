@@ -34,7 +34,7 @@ const Javascript_index = () => {
             <h2 onClick={()=>{setVlc (!vlc)}}>Loops</h2>
            {vlc && < ><ul>
            <Link to={'/Smart-Learning/Js/Loops/Forloop'} style={{textDecoration : "none"}}> <li>ForLoop</li></Link>
-           <Link to={'Smart-Learning/Js/Loops/WhileLoop'} style={{textDecoration : "none"}}> <li>While Loop</li></Link>
+           <Link to={'/Smart-Learning/Js/Loops/WhileLoop'} style={{textDecoration : "none"}}> <li>While Loop</li></Link>
          
              
 

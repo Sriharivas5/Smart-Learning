@@ -41,6 +41,8 @@
 #bird{
     width: 180px;
     transform: rotate(-85deg);
+    /* box-shadow:4px 5px 10px 8px   #28464d; */
+
 }
 .result{
     width: 50%;
@@ -48,15 +50,17 @@
     justify-content: space-between;
     flex-direction: column;
     gap: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 25px;
+    box-shadow:4px 5px 10px 8px   #28464d;
+
 }
 .resultS{
     display: flex;
     justify-content: space-between;
     /* flex-direction: column; */
     gap: 50px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 25px;
 }
 .resultContent{

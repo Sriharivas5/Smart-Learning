@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Transform2.css";
+import "./Transform3.css";
 // import bird from "../Assets/birds_PNG42.png";
 
 const Transform1 = () => {
@@ -18,13 +18,13 @@ const Transform1 = () => {
         <div className="results">
          <div className="skew">
           <h3>Box-A</h3>
-          <div className="skewbox1"> </div>       
+          <div className="skewboxes1"> </div>       
           </div>
          <div className="skew">
          <h3>Box-B</h3>
          <div style={{ transform: `${skew}` }}>
           
-         <div className="skewbox2"> </div>       
+         <div className="skewboxes2"> </div>       
         </div>
          </div>
          

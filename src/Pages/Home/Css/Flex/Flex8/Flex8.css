@@ -152,10 +152,17 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     gap: 10px;
     /* background-color: #ffffff12; */
 
 
+=======
+    gap: 15px;
+    background-color: #ffffff12;
+    backdrop-filter: blur(3px) ;
+    backdrop-filter: blur(2px) ;
+>>>>>>> 1c7889671a19dabca01d1ba5aabba692687f5336
     border-radius: 5px;
 }
 
