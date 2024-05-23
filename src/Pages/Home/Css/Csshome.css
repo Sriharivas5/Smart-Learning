@@ -1,12 +1,11 @@
 .cssHome {
     min-height: 100vh;
     background-image: url('../assets/background14.jpg');
-   
     background-size: cover;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     background-attachment: fixed;
+    justify-content: space-evenly;
     padding: 30px 0;
     gap: 20px;
 }
@@ -30,6 +29,7 @@
 }
 
 .cssHome h1 {
+    color: aliceblue;
 }
 
 a {

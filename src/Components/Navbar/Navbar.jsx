@@ -48,7 +48,6 @@ const Navbar = () => {
       <ul className="nav ">
         <li>
           <Link to="/Smart-Learning/">
-            {" "}
             <h1>Home</h1>
           </Link>
         </li>

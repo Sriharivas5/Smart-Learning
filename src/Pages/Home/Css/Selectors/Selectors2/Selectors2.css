@@ -80,7 +80,7 @@ h1 {
   text-align: center;
 }
 
-h3 {
+.selectorsContainer h3 {
   color: aliceblue;
   padding: 0 30px;
   font-size: clamp(16px, 0.5vw, 20px);

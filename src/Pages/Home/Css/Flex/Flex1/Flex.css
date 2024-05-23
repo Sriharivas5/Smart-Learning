@@ -152,6 +152,13 @@
 span {
   font-weight: 300;
   font-style: italic;
-  /* color: #D4F1F8; */
-  /* background-color: aliceblue; */
+
+}
+
+
+.main h1 , .main2 h1 , .main3 h1 , .main4 h1 , .main5 h1  , .main6 h1 , .main7 h1 , .main8 h1 {
+  color: aliceblue;
+  width: 90%;
+  margin: 10px;
+  /* padding: 10px; */
 }
